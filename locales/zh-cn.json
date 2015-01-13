@@ -1,0 +1,153 @@
+{
+    "tabs" : {
+        "one"   : {
+            "html"  : "Ceci est le premier onglet",
+            "title" : "第一页"
+        },
+        "two"   : {
+            "html"  : "Ceci est le deuxième onglet",
+            "title" : "第二页"
+        },
+        "three" : {
+            "html"  : "C'est le troisième onglet",
+            "title" : "第三页"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "Première Page"
+        },
+        "extra" : {
+            "title" : "Page Supplémentaire"
+        }
+    },
+    "buttons" : {
+        "cancel" : "取消",
+        "save"   : "保存",
+        "done"   : "确定",
+        "addView": "添加"
+    },
+    "misc" : {
+        "bottomTitle"   : "barre d'outils en bas",
+        "loadLocaleMsg" : "Chargement en cours ...",
+        "back"          : "Retour"
+    },
+    "fields" : {
+        "name" : "Nom",
+        "dateLabel" : "la date",
+        "datePlaceholder" : "选择日期"
+    },
+    "fieldsets" : {
+        "title" : "Ensemble de champs",
+        "instructions" : "des instructions en français"
+    },
+    "months" : {
+        "1"  : "1月",
+        "2"  : "2月",
+        "3"  : "3月",
+        "4"  : "4月",
+        "5"  : "5月",
+        "6"  : "6月",
+        "7"  : "7月",
+        "8"  : "8月",
+        "9"  : "9月",
+        "10" : "10月",
+        "11" : "11月",
+        "12" : "12月"
+    },
+    "slotOrder" : "[\"year\",\"month\",\"day\"]",
+    "navigationView" : {
+    	"homeBackButtonText" : "返回",
+    	"defaultBackButtonText" : "返回",
+    	"confirmButtonText" : "提交",
+    	"cancelButtonText" : "取消"
+    },
+    "categoryList" : {
+    	"inboxBtnText" : "收信箱",
+    	"settingsBtnText" : "设置"
+    },
+    "settingview" : {
+    	"fieldset" : {
+	    	"title" : "语言",
+	    	"instructions" : "设置语言"
+    	}
+    },
+    "projectDetails" : {
+    	"lblProjectName" : "项目名称",
+    	"lblCountry" : "国家",
+    	"lblGFT" : "总建筑面积（平方米）",
+    	"lblComm" : "开始日期",
+    	"lblComp" : "结束日期",
+    	"lblCons" : "顾问",
+    	"lblContr" : "总包",
+    	"lblSub" : "分包"
+    },
+    "segmentedbutton" : {
+    	"DMunchecked" : "DM未检查",
+    	"PMunchecked" : "PM未检查",
+    	"issues" : "问题",
+    	"all" : "全部"
+    },
+    "actionSheet" :{
+    	"oK" : "通过",
+    	"notOK" : "不通过",
+    	"PMalternativeAccepted" : "备选方案",
+    	"DMalternativeAccepted" : "接受备选",
+    	"nA" : "不适用",
+    	"cancel" : "取消",
+    	"deleteDraft" : "删除草稿",
+    	"Photograph" : "拍照",
+    	"Album" : "从相册中选择"
+    },
+    "checkPointHis" : {
+   		"title" : "历史",
+    	"editBtn" : "编辑",
+    	"summaryVal" : "简介",
+    	"historyVal" : "历史",
+    	"lastReply" : "最后回复",
+    	"schedule" : "变更历史"
+    },
+    "checkStatusInp" : {
+    	"textPlaceHolder" : "必填"
+    },
+    "carouselView" : {
+    	"title" : "相册"
+    },
+    "pullRefresh" : {
+    	"loadingText" : "加载中...",
+    	"lastUpdatedText" : "最后更新时间",
+    	"pullRefreshText" : "下拉刷新...",
+    	"releaseRefreshText" : "松开即刷新..."
+    },
+    "listPaging" : {
+    	"loadMoreText" : "加载更多...",
+		"noMoreRecordsText" : "没有更多数据..."
+    },
+    "checkEditor" : {
+    	"placeHolder" : "请输入备注 ……"
+    },
+    "inboxView" : {
+    	"inboxBtnFilter" : "筛选"
+    },
+    "inboxFilter" : {
+    	"downButtonText" : "确定",
+    	"begindatePlaceholder" : "请选择...",
+    	"enddatePlaceholder" : "请选择...",
+    	"dateFormat": "Y-m-d",
+    	"slotOrder" : "[\"year\",\"month\",\"day\"] ",
+    	"downText" : "完成",
+    	"market" : "商&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;场：",
+    	"messageType" : "类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：",
+    	"beginTime" : "起始日期：",
+    	"endTime" : "截止日期："
+    },
+    "checkPointContent" : {
+    	"title" : "描述"
+    },
+    "projectFileList" : {
+    	"title": "附件列表"
+    },
+    "projectFileDetail" : {
+    	"title": "版本详情"
+    }
+}

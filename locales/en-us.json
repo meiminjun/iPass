@@ -1,0 +1,154 @@
+{
+    "tabs" : {
+        "one"   : {
+            "html"  : "This is the first tab",
+            "title" : "First Tab"
+        },
+        "two"   : {
+            "html"  : "This is the second tab",
+            "title" : "Second Tab"
+        },
+        "three" : {
+            "html"  : "This is the third tab",
+            "title" : "Third Tab"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "First Page"
+        },
+        "extra" : {
+            "title" : "Extra Page"
+        }
+    },
+    "buttons" : {
+        "cancel" : "Cancel",
+        "save"   : "Save",
+        "done"   : "Done",
+        "addView": "Add View"
+    },
+    "misc" : {
+        "bottomTitle"   : "Bottom Toolbar",
+        "loadLocaleMsg" : "Loading...",
+        "back"          : "Back"
+    },
+    "fields" : {
+        "name" : "Name",
+        "dateLabel" : "Date",
+        "datePlaceholder" : "Choose Date"
+    }, 
+    "fieldsets" : {
+        "title" : "Fieldset Title",
+        "instructions" : "fieldset instructions"
+    },
+    "months" : {
+        "1"  : "January",
+        "2"  : "February",
+        "3"  : "March",
+        "4"  : "April",
+        "5"  : "May",
+        "6"  : "June",
+        "7"  : "July",
+        "8"  : "August",
+        "9"  : "September",
+        "10" : "October",
+        "11" : "November",
+        "12" : "December"
+    },
+    "slotOrder" : "[\"month\",\"day\",\"year\"]",
+    "navigationView" : {
+    	"homeBackButtonText" : "Back",
+    	"defaultBackButtonText" : "Back",
+    	"confirmButtonText" : "Confirm",
+    	"cancelButtonText" : "Cancel"
+    },
+    "categoryList" : {
+    	"inboxBtnText" : "Inbox",
+    	"settingsBtnText" : "Settings"
+    },
+    "settingview" : {
+    	"fieldset" : {
+	    	"title" : "Language",
+	    	"instructions" : "Setting Language"
+    	}
+    },
+    "projectDetails" : {
+    	"lblProjectName" : "Project Name",
+    	"lblCountry" : "Country",
+    	"lblGFT" : "GFA",
+    	"lblComm" : "Commencement Date",
+    	"lblComp" : "Completion Date",
+    	"lblCons" : "Consultant",
+    	"lblContr" : "Main Contractor",
+    	"lblSub" : "Sub Contractor"
+    },
+    "segmentedbutton" : {
+    	"DMunchecked" : "DM Unchecked",
+    	"PMunchecked" : "PM Unchecked",
+    	"issues" : "Issues",
+    	"all" : "All"
+    },
+    "actionSheet" :{
+    	"oK" : "OK",
+    	"notOK" : "Not OK",
+    	"PMalternativeAccepted" : "Alternative Offer",
+    	"DMalternativeAccepted" : "Alternative Accepted",
+    	"nA" : "NA",
+    	"cancel" : "Cancel",
+    	"deleteDraft" : "Delete Draft",
+    	"Photograph" : "Photograph",
+    	"Album" : "Choose from a photo album"
+    },
+    "checkStatusInp" : {
+    	"textPlaceHolder" : "Required"
+    },
+    "checkPointHis" : {
+    	"title" : "History",
+    	"editBtn" : "Edit",
+    	"summaryVal" : "Summary",
+    	"historyVal" : "History",
+    	"lastReply" : "Last reply",
+    	"schedule" : "Plan to change"
+    },
+    "carouselView" : {
+    	"title" : "Album"
+    },
+    "pullRefresh" : {
+    	"loadingText" : "Loading...",
+    	"lastUpdatedText" : "Last update time",
+    	"pullRefreshText" : "Pull down to refresh...",
+    	"releaseRefreshText" : "Release to refresh..."
+    },
+    "listPaging" : {
+    	"loadMoreText" : "Load More...",
+		"noMoreRecordsText" : "No More Records..."
+    },
+    "checkEditor" : {
+    	"placeHolder" : "Input ……"
+    },
+    "inboxView" : {
+    	"inboxBtnFilter" : "Filter"
+    },
+    "inboxFilter" : {
+    	"downButtonText" : "Down",
+    	"lblToText" : "To",
+    	"begindatePlaceholder" : "Please select ...",
+    	"enddatePlaceholder" : "Please select ...",
+    	"dateFormat" : "m/d/Y",
+    	"slotOrder" : "[\"month\",\"day\",\"year\"] ",
+    	"downText" : "Done",
+    	"market" : "Market&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：",
+    	"messageType" : "Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：",
+    	"beginTime" : "Start&nbsp;Date：",
+    	"endTime" : "End&nbsp;&nbsp;Date ："
+    },
+    "checkPointContent" : {
+    	"title" : "Description"
+    },
+    "projectFileList" : {
+    	"title": "Attachment List"
+    },
+    "projectFileDetail" : {
+    	"title": "Version Details"
+    }
+}

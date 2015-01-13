@@ -1,0 +1,863 @@
+/*默认字体样式*/
+.defaultFont-style {
+	font-size: 13px;
+	line-height: 20px;
+	min-height: 10px;
+	/*color: #333;*/
+	font-style: normal;
+	/*font-family: "微软雅黑", "黑体", "宋体";*/
+	font-family: Roboto;
+	color: #414042;
+}
+
+/*默认字体样式无阴影*/
+.defaultFont-style-normal {
+	font-size: 13px;
+	line-height: 20px;
+	min-height: 10px;
+	/*color: #333;*/
+	font-style: normal;
+	font-weight: normal;
+	/*font-family: "微软雅黑", "黑体", "宋体";*/
+	font-family: Roboto;
+	color: #414042;
+}
+
+.x-toolbar-dark {
+	background-color: transparent !important;
+	background-image: url("../images/toolbar.png") !important;
+	border-bottom: .1px solid #b2b2b2 !important;
+	font-size: 0.9em !important;
+}
+
+.default-panel-head {
+	border-top: 0.1em solid #66747d !important;
+	border-bottom: 0.1em solid #46545d !important;
+	background-image: -webkit-linear-gradient(top, #66747d, #46545d)
+		!important;
+	color: #ffffff !important;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 0.2em .7em;
+}
+
+.avatar-img {
+	float: left;
+	border: 0;
+	border-radius: .2em;
+	width: 60px;
+	height: 60px;
+	margin: -.5em auto auto -.3em
+}
+
+.avatar-row {
+	margin: 0px -15px 0px 63px;
+}
+
+.avatar-row .head {
+	margin: -.5em 4.5em auto auto;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #0b3a0c;
+	line-height: 22px;
+	word-break: break-word
+}
+
+.avatar-row .rowscontent {
+	margin: 1px 69px auto 1px;
+	color: #414042;
+	font-size: 13px;
+	word-break: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	min-height: 40px;
+	max-height: 40px
+}
+/*暂停*/
+.projectListPaused-bg{
+	width: 29px;
+	height: 29px;
+	float: right;
+	position: relative;
+	-webkit-border-image: url('../images/projectStatus/paused.png') 0 0 0 0 stretch
+		stretch
+}
+
+/*已结项*/
+.projectListCompleted-bg{
+	width: 29px;
+	height: 29px;
+	float: right;
+	position: relative;
+	-webkit-border-image: url('../images/projectStatus/completed.png') 0 0 0 0 stretch
+		stretch
+}
+
+.progress {
+	margin: 1px -55px auto 60px;
+}
+
+.progress .itemDiv_line {
+	width: 100%;
+	line-height: 20px;
+	background-color: transparent;
+}
+
+.progress .itemDiv_line .leftDiv {
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	background-color: transparent;
+	float: left
+}
+
+.progress .itemDiv_line .rigthDiv {
+	width: auto;
+	line-height: 20px;
+	background-color: transparent;
+}
+
+.checkPoint-img {
+	float: left;
+	border: 0;
+	border-radius: .2em;
+	width: 32px;
+	height: 32px;
+	margin-top: -4px;
+}
+.checkPointHis-img {
+	float: left;
+	border: 0;
+	border-radius: .2em;
+	width: 32px;
+	height: 32px;
+	margin-top: -15px;
+}
+
+.checkPoint-row {
+	margin: 5px 32px 0px 32px;
+}
+
+.checkPoint-row .head {
+	margin: -.5em auto auto auto;
+	font-weight: bold;
+	color: #0b3a0c;
+	font-size: 1.2em;
+	word-break: break-word
+}
+
+.checkPoint-row .rowscontent {
+	margin: 1px 0px auto auto;
+	color: #999;
+	word-break: break-word
+}
+
+.checkPoint-row .content {
+	margin: 1px 0px auto auto;
+	color: #759297;
+	font-size: 13px;
+	word-break: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	max-height : 38px
+}
+
+.text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 1px;
+}
+
+.text-overflowHidden {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 1px;
+}
+
+.listImgDef {
+	width: 70px;
+	height: 70px;
+	margin-top: -1px
+}
+
+.checkPointListImg {
+	width: 32px;
+	height: 32px;
+	-webkit-border-radius: .2em
+}
+
+.checkPointAnnexImg {
+	width: 18px;
+	height: 15px;
+	-webkit-border-radius: .2em
+}
+
+.details {
+	width: 30px;
+	height: 30px;
+	float: right;
+	position: relative;
+	margin: -50px 14px auto auto;
+	-webkit-border-image: url('../images/details.png') 0 0 0 0 stretch
+		stretch
+}
+
+.arrow-black {
+	width: 20px;
+	height: 26px;
+	float: right;
+	position: relative;
+	margin: -2.0em 0em auto auto;
+	-webkit-border-image: url('../images/arrow-black.png') 0 0 0 0 stretch
+		stretch
+}
+
+.checkPoint-disable {
+	width: 36px;
+	height: 36px;
+	float: right;
+	position: relative;
+	margin: -2em -0.3em auto auto;
+	-webkit-border-image: url('../images/disable.png') 0 0 0 0 stretch
+		stretch
+}
+
+.checkPoint-enable {
+	width: 42px;
+	height: 42px;
+	float: right;
+	position: relative;
+	margin: -2em -0.5em auto auto;
+	-webkit-border-image: url('../images/enable.png') 0 0 0 0 stretch
+		stretch
+}
+
+.checkPoint-contentMore {
+	width: 42px;
+	height: 42px;
+	float: right;
+	position: relative;
+	margin: -2em -0.5em auto auto;
+	-webkit-border-image: url('../images/enable.png') 0 0 0 0 stretch
+		stretch
+}
+
+.div-corners {
+	-webkit-border-radius: 0.3em;
+}
+
+.div-label {
+	color: #0b3a0c
+}
+
+.imgDefault {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 80%;
+	position: absolute
+}
+
+/*add by chenwj 20130926 18:10*/
+.category {
+	background: url("../images/arrow-black.png") no-repeat;
+	background-color: #ffffff;
+	background-position: 95% 50%;
+	-webkit-border-radius: .4em;
+	margin: 10px;
+	padding: 10px;
+	background-size: 15px 20px;
+}
+
+.category .title {
+	width: 90%;
+	font-weight: bold;
+	font-size: 1.2em;
+	word-break: break-word
+}
+
+.category .content {
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	color: #759297;
+	word-break: break-word
+}
+
+/*setting list view*/
+.settinglist {
+	padding: 10px 20px;
+	background-color: transparent !important;
+}
+
+.settinglist:first-child {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.settinglist:last-child {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.settingSelected {
+	background-color: transparent !important;
+	background-image: url(../images/ok.png) !important;
+	background-size: 28px;
+	background-repeat: no-repeat;
+	background-position: 98% 50%;
+}
+
+/* 项目附录和项目阶段*/
+.placeItemDiv {
+	width: auto;
+	height: '100%';
+	font-weight: normal;
+	background-color: transparent !important;
+	margin: 0px 10px 0px 0px
+}
+
+.placeItemDiv .phaseDetails {
+	margin: 0px 0px 0px 0px;
+}
+
+.placeItemDiv .phaseDetails .title {
+	margin: 1px auto auto auto;
+	font-weight: bold;
+	font-size: 1.2em;
+	word-break: break-word
+}
+
+.placeItemDiv .phaseDetails .content {
+	margin: 1px 0px auto .3em;
+	color: #759297;
+	word-break: break-word
+}
+
+.placeItemDiv .itemDiv_right {
+	/*float:left;*/
+	width: 100%;
+	min-width: 200px;
+	text-align: center;
+	height: 100%;
+	padding: 10px 10px;
+}
+
+.placeItemDiv .itemDiv_right .itemDiv_border {
+	margin-top: 12px;
+	margin-bottom: 5px;
+	position: relative;
+	width: 100%;
+	height: 40px;
+}
+
+.placeItemDiv .itemDiv_right .itemDiv_percente {
+	background-color: transparent;
+	position: relative;
+	color: #ffffff;
+	margin: 3px 0px;
+	width: 100%;
+	height: 30px;
+}
+
+.placeItemDiv .itemDiv_right .itemDiv_percente1 {
+	background-color: transparent;
+	position: relative;
+	color: #ffffff;
+	margin-top: 5px;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+}
+
+/* 照相机*/
+.camera {
+	width: 48px;
+	height: 42px;
+	float: left;
+	margin: 0px 0px auto auto;
+	-webkit-border-image: url('../images/icon_photo.png') 0 0 0 0 stretch
+		stretch
+}
+
+.actionsheetBtn {
+	border: 3px solid rgba(0, 0, 0, .4);
+	border-top-color: rgba(0, 0, 0, .4)
+}
+
+.checkHisAnnex {
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: .2em;
+}
+
+.checkHis-row {
+	margin: 5px 10px 0px 32px;
+}
+
+.checkHis-row .head {
+	margin: -.5em auto auto auto;
+	font-weight: bold;
+	color: #0b3a0c;
+	font-size: 1.2em;
+	word-break: break-word
+}
+
+.checkHis-row .rowscontent {
+	margin: 1px 0px auto auto;
+	color: #999;
+	word-break: break-word
+}
+
+/* 项目检查混合和项目检查项列表*/
+.scopeItemDiv {
+	background: url("../images/arrow-black.png") no-repeat;
+	background-position: 100% 50%;
+	-webkit-border-radius: .4em;
+	background-size: 15px 20px
+}
+
+.scopeItemDivNum {
+	width: 41px;
+	height: 41px;
+	float: right;
+	position: absolute;
+	margin: -9px 35px auto auto;
+	text-align: right;
+	right: 0;
+	top: 50%;
+	bottom: 50%;
+	color: #E23039;
+	font-size: 1.4em;
+	font-weight: bold
+}
+
+.scopeItemDiv .scopeDetails {
+	margin: 0px 60px 0px 0px;
+}
+
+.scopeItemDiv .scopeDetails .title {
+	margin: 1px auto auto auto;
+	font-weight: bold;
+	font-size: 1.2em;
+	word-break: break-word
+}
+
+.scopeItemDiv .scopeDetails .content {
+	margin: 1px 0px auto .1em;
+	color: #759297;
+	word-break: break-word
+}
+
+.categoryList {
+	margin: 10px 0px !important;
+	background-color: transparent !important
+}
+
+.categoryList .x-list-item-body {
+	padding: 0px 0px !important
+}
+
+.categoryList .x-dock-horizontal {
+	border-top: 0px solid #dedede !important;
+	border-bottom: 0px solid #dedede !important
+}
+
+.categoryListPress-item-pressed {
+	border-top-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0) none
+}
+
+.contractorListItem {
+	background: url("../images/call.png") no-repeat;
+	background-position: 100% 50%;
+	-webkit-border-radius: .4em;
+	background-size: 30px 30px
+}
+
+.contractorListItem .contractorDetails {
+	margin: 0px 30px 0px 0px;
+}
+
+.contractorListItem .contractorDetails .title {
+	margin: 1px auto auto auto;
+	font-weight: bold;
+	font-size: 1.2em;
+	word-break: break-word
+}
+
+.contractorListItem .contractorDetails .content {
+	margin: 1px 0px auto 0em;
+	word-break: break-word
+}
+
+.x-button-roleBtn {
+	background-color: transparent !important;
+	background-image: none !important;
+	border: none !important;
+	border-radius: 0px;
+	width: 72px;
+	height: 36px
+}
+
+.pmBtn {
+	position: absolute;
+	right: 1px;
+	width: 70px !important;
+	height: 25px !important;
+	background-size: 72px auto !important;
+	background-color: transparent !important;
+	background-image: url(../images/pm.png) !important;
+}
+
+.dmBtn {
+	position: absolute;
+	width: 70px !important;
+	height: 25px !important;
+	background-size: 52px auto !important;
+	background-color: transparent !important;
+	background-image: url(../images/dm.png) !important;
+}
+
+.filter-Icon-Type {
+	background-color: transparent !important;
+	background-image: url(../images/icon_type.png) !important;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 5px 11px;
+	text-indent: 2em;
+	line-height: 42px;
+	font-weight: bold;
+	color: #717171;
+}
+
+.selectCls .x-input-el {
+	color: #737172;
+	background-color: #F7F7F7 !important;
+	height: 42px;
+}
+
+.datepickerCls .x-input-el {
+	color: #737172;
+	background-color: #F7F7F7 !important;
+	height: 42px;
+}
+
+.datepickerCls .x-clear-icon {
+	display: none;
+	margin-right: 2.5em;
+	width: 2.6em;
+	height: 2.6em;
+	margin-top: -1.3em;
+	z-index: 1;
+}
+
+.x-list-ckPointHis .x-list-header {
+	background:#e9ecf1 !important;
+	border-top: 0.1em solid #C5D0E0!important;
+	border-bottom: 0.1em solid #ECF0F4!important;
+	color : #B7C0CE !important;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 0.2em .7em;
+}
+.ckPointHis .x-list-item-first {
+	border-top: none;
+}
+.ckPointHis .x-list-item {
+	border-top: 0px solid #dedede !important;
+	border-bottom: 1px solid #dedede !important
+}
+.ckPointHis .x-list-item-last {
+	border-top: 0px solid #dedede !important;
+	border-bottom: 1px solid #dedede !important
+}
+
+.projectFileListDiv {
+	word-break: break-all;
+	font-size: 1.1em;
+	/* margin-top: 10px; */
+}
+.docAtt {
+	background: url("../images/icon_download.png") no-repeat;
+	-webkit-border-radius: .4em;
+	background-size: 26px 26px;
+	width: 32px;
+	height: 32px;
+	float: left;
+	display: inline-block;
+}
+.docAttFileName {
+	white-space: normal;
+	word-break: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	color: #000000;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top: 1px;
+	max-height: 40px;
+	min-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+}
+
+.changePointItemName {
+	font-weight: bold;
+	color: #0b3a0c;
+	font-size: 1.2em;
+	font-family: Arial;
+}
+
+.changePointRows {
+	position:relative;
+	/*background:url(../images/arrow-black.png) 100% 50% / 15px 20px no-repeat;*/
+	background: url("../images/arrow-black.png") no-repeat;
+	background-position: 100% 50%;
+	padding: 10px;
+	background-size: 15px 20px;
+	-webkit-border-radius: .4em;
+}
+
+.scheduleDiv {
+	border-bottom: 1px solid #dedede !important;
+	padding: 0.65em 0.8em;
+}
+.scheduleDiv p {
+	margin-top: 2px;
+	/* color: #000; */
+	font-family: arial;
+	color: #999;
+	/*margin-left: 34px;*/
+}
+.scheduleDivLeft {
+	display:inline-block;
+}
+.scheduleName {
+	color: #0b3a0c;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.scheduleDivTime {
+	float:right;
+	color: #999;
+	margin-right: 10px;
+}
+.scheduleHead {
+	background: #e9ecf1 !important;
+	border-top: 0.1em solid #C5D0E0!important;
+	border-bottom: 0.1em solid #ECF0F4!important;
+	color: #B7C0CE !important;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 0.2em .7em;
+}
+
+.x-list-appendixList .x-list-header {
+	height: 73px;
+	padding-top: 18px;
+	margin-top: -27px;
+	padding-right: 0px;
+}
+.x-list-appendixList.x-list-grouped .x-list-header-wrap .x-dock-horizontal > .x-dock-body {
+	margin-top:11px;
+}
+.cpList .x-list-item-body {
+	padding: 0px;
+}
+.projectItemAnnex-Div {
+	float: left;
+	border: 0;
+	border-radius: .2em;
+	width: 35px;
+	height: 35px;
+	margin-top: -5px;
+}
+.projectItemAnnexImg {
+	width: 21px;
+	height: 21px;
+	-webkit-border-radius: .2em
+}
+
+/*检查点附件详情列表*/
+.projectFileCls .x-innerhtml {
+	padding: none !important
+}
+.projectFileCls .x-list-item-first {
+	border-top: none !important;
+}
+.projectFileCls .x-list-item {
+	border-top: 0px solid #dedede !important;
+	border-bottom: 1px solid #dedede !important;
+}
+.projectFileCls .x-list-item-last {
+	border-top: 0px solid #dedede !important;
+	border-bottom: 1px solid #dedede !important
+}
+.projectFileCls .x-list-header {
+	background: #e9ecf1 !important;
+	border-top: 0.1em solid #C5D0E0!important;
+	border-bottom: 0.1em solid #ECF0F4!important;
+	color: #B7C0CE !important;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 0.2em .7em;
+}
+.projectFileCls .attVerNo {
+	display: inline-block;
+	float: right;
+	margin-right: 14px;
+	color: #999;
+	font-size: 13px;
+	margin-top: 2px;
+}
+.projectFileList {
+	/*background: url("../images/enable.png") no-repeat;*/
+	/*background-position: 100% 14%;*/
+	-webkit-border-radius: .4em;
+	/*background-size: 38px 38px;*/
+	padding:.5em .8em;
+	border-bottom: 1px solid #dedede !important;
+	padding-left: 13px;
+}
+.projectFileList .attVerNo {
+	display: inline-block;
+	float: right;
+	margin-right: 14px;
+	color: #999;
+	font-size: 13px;
+	margin-top: 2px;
+}
+.projectFileList .attImgButton {
+	display:inline-block;
+	height:39px;
+	width: 39px;
+	float: right;
+	background: url("../images/enable.png") no-repeat;
+	background-size: 42px 42px;
+	margin-top: -5px;
+	margin-right: 3px;
+}
+.projectFileList-img {
+	border: 0;
+	border-radius: .2em;
+	width: 25px;
+	height: 31px;
+	margin: 11px 0px 0px 0px;
+	position: absolute;
+	top: 0px;
+	left: 9px
+}
+.projectFileList .mainListDetails {
+	margin: 0px 26px 0px 2px
+}
+.projectFileList .projectFileListDiv .head {
+	margin: 0px 0px auto auto;
+	word-break: break-all;
+	font-weight: bold;
+	font-size: .8em;
+	height: 32px
+}
+.projectFileList .projectFileListDiv .head .attImg {
+	-webkit-border-radius: .4em;
+	background-size: 26px 26px;
+	width: 32px;
+	height: 32px;
+	float: left;
+	display: inline-block;
+}
+.projectFileList .projectFileListDiv .head .attFileName {
+	white-space: normal;
+	word-break: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	color: #000000;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top: 1px;
+	max-height: 40px;
+	min-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+}
+.projectFileList .projectFileListDiv .rowscontent {
+	margin: 8px 4px auto auto;
+	word-break: break-all;
+	color: #999;
+	font-size: 13px
+}
+/*检查版本历史详情*/
+.projectFileDetail {
+	/*background: url("../images/icon_download.png") no-repeat;*/
+	/*background-position: 100% 50%;*/
+	-webkit-border-radius: .4em;
+	/*background-size: 26px 26px;*/
+}
+.projectFileDetail-img {
+	border: 0;
+	border-radius: .2em;
+	width: 25px;
+	height: 31px;
+	margin: 11px 0px 0px 0px;
+	position: absolute;
+	top: 0px;
+	left: 9px
+}
+.projectFileDetail .mainListDetails {
+	margin: 0px 26px 0px 2px
+}
+.projectFileDetail .projectFileDetailsDiv .head {
+	margin: 0px 30px auto auto;
+	word-break: break-all;
+	font-weight: bold;
+	font-size: .8em;
+	height: 32px
+}
+.projectFileDetail .projectFileDetailsDiv .head .attImg {
+	-webkit-border-radius: .4em;
+	background-size: 26px 26px;
+	width: 32px;
+	height: 32px;
+	float: left;
+	display: inline-block;
+}
+.projectFileDetail .projectFileDetailsDiv .head .attFileName {
+	white-space: normal;
+	word-break: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	color: #000000;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top: 1px;
+	max-height: 40px;
+	min-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+}
+.projectFileDetail .projectFileDetailsDiv .rowscontent {
+	margin: 8px 0px auto auto;
+	word-break: break-all;
+	color: #999;
+	font-size: 13px
+}
+/**/
+/*End*/
